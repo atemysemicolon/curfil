@@ -616,8 +616,8 @@ private:
             return b;
         }
 
-        assert(a > 0);
-        assert(b > 0);
+        assert(a >= 0);
+        assert(b >= 0);
 
         return (a - b);
     }

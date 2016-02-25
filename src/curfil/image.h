@@ -134,7 +134,7 @@ public:
      * @return true if and only if the depth is strictly greater than zero and represents a valid depth measure
      */
     bool isValid() const {
-        return (value > 0);
+        return (value >= 0);
     }
 
     /**
